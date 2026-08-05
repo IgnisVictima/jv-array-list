@@ -27,15 +27,15 @@ public class ArrayList<T> implements List<T> {
 
         if (size == elements.length) {
 
-            Object[] elements_new = new Object[elements.length + elements.length / 2 + 1];
+            Object[] elementsNew = new Object[elements.length + elements.length / 2 + 1];
 
             for (int i = 0; i < elements.length; i++) {
 
-                elements_new[i] = elements[i];
+                elementsNew[i] = elements[i];
 
             }
 
-            elements = elements_new;
+            elements = elementsNew;
         }
 
         for (int i = size; i > index; i--) {
