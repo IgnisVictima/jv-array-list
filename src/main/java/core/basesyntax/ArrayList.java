@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import java.util.ArrayList;
-
 public class ArrayList<T> implements List<T> {
     private Object[] elements;
     private int size;
